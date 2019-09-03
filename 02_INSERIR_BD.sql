@@ -4,7 +4,7 @@ insert into Usuarios(Email, Senha, Permissao) values ('admin@admin.com', 'admin'
 select * from Usuarios
 
 DELETE FROM Usuarios
-WHERE IdUsuario = 2;
+WHERE IdUsuario = 5;
 
 insert into Estudios(Nome, PaisOrigem, DataCriacao, IdUsuario) values ('Blizzard', 'Irvine, California, EUA', '08/02/1991', 3)	
 insert into Estudios(Nome, PaisOrigem, DataCriacao, IdUsuario) values ('Rockstar', 'Nova Iorque, New York, EUA', '21/12/1998', 3)
@@ -20,3 +20,6 @@ insert into Jogos(Nome, Descricao, DataLancamento, Valor, IdEstudio) VALUES ('Re
 																		   ,('Final Fantasy', 'é um jogo de história impressionante', '18/12/1987', '84', 5)
 
 select * from Jogos
+
+
+
